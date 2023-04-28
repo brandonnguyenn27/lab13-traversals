@@ -220,8 +220,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 			}
 			
 			while(!post.isEmpty()) {
-				BSTNode<T> node = post.pop();
-				System.out.print(node + " ");
+				System.out.print(post.pop() + " ");
 			}
 		}
 
